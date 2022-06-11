@@ -3,7 +3,7 @@ import { fetchBooksData, fetchImagesData } from "./dataFetcher.js";
 import { prepareData } from "./utils.js";
 import { createBody } from "./bodyGenerate.js";
 
-window.addEventListener("load", function () {
+window.addEventListener("DOMContentLoaded", function () {
   console.log("hello");
   this.document.getElementById("loader").style.display = "none";
 });
